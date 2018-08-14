@@ -1,0 +1,57 @@
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close close-btn" data-dismiss="modal"><span>&times;</span></button>
+        <h4 class="main-title">Question or Comments</h4>
+      </div>
+      <div class="modal-body comments-modal">
+            <form class="" action="https://formspree.io/gunjan.siroya@netspective.com" method="POST">
+                       
+                        <div class="form-group">
+                         
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="Name" id="modalname"  placeholder="Name"/>
+                                </div>
+                                 <span  class="error" id="errorname" style="display:none">Enter name</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                         
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="Email" id="businessemail"  placeholder="Email"/>
+                                </div>
+                                <span  class="error" id="email" style="display:none">Enter a valid email</span>
+                            </div>
+                        </div>
+
+                            <div class="form-group">
+                             
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-comments-o" aria-hidden="true"></i></span>
+                                    <textarea placeholder="Message"  name = "Comments" maxlength="400" class="form-control" rows="5" id="comment"></textarea>
+                                </div>
+                                <span  class="error" id="error-comments" style="display:none">Please enter message</span>
+                            </div>
+                        </div>
+ 
+                        <div class="form-group ">
+                            <input type="submit" value="Submit" id="submitbtn"class="btn btn-sm btn-lg btn-block comment-btn">
+                        </div>
+  
+                    </form>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
